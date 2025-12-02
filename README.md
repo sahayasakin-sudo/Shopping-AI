@@ -25,3 +25,4 @@ Works in demo mode when no AI_API_KEY is set
 Tech Stack
 
 Java 17
+Spring Boot
