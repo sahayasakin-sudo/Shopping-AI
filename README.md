@@ -70,3 +70,7 @@ src/
           ├── application.properties
           └── static/templates
 
+Contributing
+
+Pull requests are welcome!
+If you find a bug, open an issue.
