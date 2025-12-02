@@ -9,3 +9,4 @@ Features
 🔹 Product Management (CRUD)
 Endpoints:
 POST /api/products – Create a product
+GET /api/products – List all products
