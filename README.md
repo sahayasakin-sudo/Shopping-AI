@@ -58,3 +58,15 @@ Create a Product
 curl -X POST http://localhost:8080/api/products \
 -H "Content-Type: application/json" \
 -d '{"name":"Phone","description":"Smartphone","price":199.99}'
+
+src/
+ └── main/
+     ├── java/com/example/shop
+     │    ├── controller/  → REST controllers
+     │    ├── model/       → Entity classes
+     │    ├── repository/  → JPA repositories
+     │    └── service/     → Business logic
+     └── resources/
+          ├── application.properties
+          └── static/templates
+
