@@ -4,7 +4,7 @@ A minimal, clean Spring Boot backend that provides:
 
  Product CRUD API (/api/products)
 
-✔️ AI Conversation API (/api/ai/ask) with demo mode when no API key is set
+AI Conversation API (/api/ai/ask) with demo mode when no API key is set
 
 ✔️ MySQL database integration
 
