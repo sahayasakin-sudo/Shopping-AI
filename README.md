@@ -11,3 +11,4 @@ Endpoints:
 POST /api/products – Create a product
 GET /api/products – List all products
 GET /api/products/{id} – Get product by ID
+PUT /api/products/{id} – Update product
