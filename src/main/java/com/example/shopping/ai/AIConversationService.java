@@ -25,7 +25,7 @@ public class AIConversationService {
             .build();
   }
 
-  // For demo: if no API key provided, return a canned reply.
+ 
   public String ask(String userMessage) {
     if (apiKey == null || apiKey.isBlank()) {
       if (userMessage == null) return "No message";
