@@ -1,48 +1,54 @@
-
 Shopping App Backend (Spring Boot)
 
-Product CRUD API (/api/products)
-AI Conversation API (/api/ai/ask) with demo mode when no API key is set
-MySQL database integration
-RESTful architecture using Spring Web + JPA
+A minimal, clean Spring Boot backend that provides:
 
-Features
+✔️ Product CRUD API (/api/products)
+
+✔️ AI Conversation API (/api/ai/ask) with demo mode when no API key is set
+
+✔️ MySQL database integration
+
+✔️ RESTful architecture using Spring Web + JPA
+
+
+
+🚀 Features
 🔹 Product Management (CRUD)
+
 Endpoints:
+
 POST /api/products – Create a product
+
 GET /api/products – List all products
+
 GET /api/products/{id} – Get product by ID
+
 PUT /api/products/{id} – Update product
+
 DELETE /api/products/{id} – Delete product
 
-AI Conversation Endpoint
+🤖 AI Conversation Endpoint
+
 POST /api/ai/ask
+
 Works in demo mode when no AI_API_KEY is set
+
+Accepts:
 
 {
   "message": "Recommend a phone for photography"
 }
 
-Tech Stack
+🛠️ Tech Stack
 
 Java 17
+
 Spring Boot
+
 Spring Web
+
 Spring Data JPA
+
 MySQL
+
 Maven
-src/
- └── main/
-     ├── java/com/example/shop
-     │    ├── controller/  → REST controllers
-     │    ├── model/       → Entity classes
-     │    ├── repository/  → JPA repositories
-     │    └── service/     → Business logic
-     └── resources/
-          ├── application.properties
-          └── static/templates
-
-Contributing
-
-Pull requests are welcome!
-If you find a bug, open an issue.
