@@ -2,7 +2,7 @@ Shopping App Backend (Spring Boot)
 
 A minimal, clean Spring Boot backend that provides:
 
-✔️ Product CRUD API (/api/products)
+ Product CRUD API (/api/products)
 
 ✔️ AI Conversation API (/api/ai/ask) with demo mode when no API key is set
 
