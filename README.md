@@ -30,3 +30,14 @@ Spring Web
 Spring Data JPA
 MySQL
 Maven
+src/
+ └── main/
+     ├── java/com/example/shop
+     │    ├── controller/  → REST controllers
+     │    ├── model/       → Entity classes
+     │    ├── repository/  → JPA repositories
+     │    └── service/     → Business logic
+     └── resources/
+          ├── application.properties
+          └── static/templates
+
