@@ -13,3 +13,5 @@ GET /api/products – List all products
 GET /api/products/{id} – Get product by ID
 PUT /api/products/{id} – Update product
 DELETE /api/products/{id} – Delete product
+
+AI Conversation Endpoint
