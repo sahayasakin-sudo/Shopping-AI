@@ -52,3 +52,9 @@ Spring Data JPA
 MySQL
 
 Maven
+
+Example API Requests
+Create a Product
+curl -X POST http://localhost:8080/api/products \
+-H "Content-Type: application/json" \
+-d '{"name":"Phone","description":"Smartphone","price":199.99}'
