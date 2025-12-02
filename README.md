@@ -8,3 +8,4 @@ RESTful architecture using Spring Web + JPA
 Features
 🔹 Product Management (CRUD)
 Endpoints:
+POST /api/products – Create a product
