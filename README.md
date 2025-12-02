@@ -4,3 +4,6 @@ Product CRUD API (/api/products)
 AI Conversation API (/api/ai/ask) with demo mode when no API key is set
 MySQL database integration
 RESTful architecture using Spring Web + JPA
+
+Features
+🔹 Product Management (CRUD)
