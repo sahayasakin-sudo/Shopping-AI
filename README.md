@@ -22,3 +22,4 @@ Works in demo mode when no AI_API_KEY is set
   "message": "Recommend a phone for photography"
 }
 
+Tech Stack
