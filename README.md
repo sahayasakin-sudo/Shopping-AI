@@ -15,3 +15,4 @@ PUT /api/products/{id} – Update product
 DELETE /api/products/{id} – Delete product
 
 AI Conversation Endpoint
+POST /api/ai/ask
